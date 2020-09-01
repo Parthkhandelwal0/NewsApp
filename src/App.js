@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Typography } from '@material-ui/core';
 import alanBtn from "@alan-ai/alan-sdk-web"
 import NewsCards from  "./components/NewsCards/NewsCards"
 import wordsToNumbers from 'words-to-numbers';
@@ -35,8 +36,15 @@ const App = () => {
 }, []);
   return (
     <div >
-      <h1>News App</h1>
+      <div className="head"><h1> News App </h1></div>
       <NewsCards articles={newsArticles} />
+    <div className="footer">
+          <Typography variant="body1" component="h2">
+            Created by
+            <a className="link" href="https://www.linkedin.com/in/parth-khandelwal-3051941a0/" target="_blank"> Parth Khandelwal</a> -
+            <a className="link" href="https://twitter.com/cyborg_parth" target="_blank" > twitter</a>
+          </Typography>
+        </div>
     </div>
   );
 }
