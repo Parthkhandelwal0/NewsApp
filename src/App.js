@@ -41,8 +41,8 @@ const App = () => {
     <div className="footer">
           <Typography variant="body1" component="h2">
             Created by
-            <a className="link" href="https://www.linkedin.com/in/parth-khandelwal-3051941a0/" target="_blank"> Parth Khandelwal</a> -
-            <a className="link" href="https://twitter.com/cyborg_parth" target="_blank" > twitter</a>
+            <a className="link" href="https://www.linkedin.com/in/parth-khandelwal-3051941a0/"> Parth Khandelwal</a> -
+            <a className="link" href="https://twitter.com/cyborg_parth" > twitter</a>
           </Typography>
         </div>
     </div>
